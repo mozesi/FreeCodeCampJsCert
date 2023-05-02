@@ -12,7 +12,7 @@
             console.log("Not equal to five");
          }
         }
-        testEqual(4);
+        //testEqual(4);
 
         // strict equality operator
 
@@ -23,7 +23,7 @@
                console.log("Not Equal");
         }
 
-        testStrict(10);
+       // testStrict(10);
 
         //comparing two different values using strict equality operator
 
@@ -34,6 +34,17 @@
             console.log("not equal to");
         }
 
-        compareEquality(10,"10");
+        //compareEquality(10,"10");
+
+        // strict not eqaul to operator
+        function testStrictNotEqualTo(val){
+            if(val !== 17){
+                console.log("not equal to");
+            }else{
+                console.log("Equal to");
+            }
+        }
+
+        testStrictNotEqualTo(10);
     </script>
 </html>
