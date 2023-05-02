@@ -12,7 +12,28 @@
             console.log("Not equal to five");
          }
         }
-
         testEqual(4);
+
+        // strict equality operator
+
+        function testStrict(val) {
+            if (val === 7) { 
+               console.log("Equal");
+            }
+               console.log("Not Equal");
+        }
+
+        testStrict(10);
+
+        //comparing two different values using strict equality operator
+
+        function compareEquality(a,b){
+            if(a === b){
+                console.log("Equal to"+b+"");
+            }
+            console.log("not equal to");
+        }
+
+        compareEquality(10,"10");
     </script>
 </html>
